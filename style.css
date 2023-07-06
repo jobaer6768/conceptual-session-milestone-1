@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-container{
+  background-color: rgb(74, 70, 70);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.logo{
+  width: 100px;
+}
+
+.menus{
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.menu-list{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-list:hover{
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
